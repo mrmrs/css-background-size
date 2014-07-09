@@ -1,0 +1,29 @@
+{
+  "name": "css-background-size",
+  "version": "0.0.1",
+  "homepage": "http://github.com/mrmrs/css-background-size",
+  "description": "Css module of single purpose classes for background size",
+  "keywords": [
+    "css",
+    "oocss",
+    "",
+    ""
+  ],
+  "css-background-size": {
+    "type": "git",
+    "url": "http://github.com/mrmrs/css-background-size.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mrmrs/repo/issues",
+    "email": "hi@mrmrs.cc"
+  },
+  "author": {
+    "name": "Adam Morse",
+    "email": "hi@mrmrs.cc",
+    "url": "http://mrmrs.cc"
+  },
+  "contributors": [
+    { "name": "Adam Morse", "email": "hi@mrmrs.cc" }
+  ],
+  "license": "MIT"
+}
