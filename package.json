@@ -6,8 +6,7 @@
   "keywords": [
     "css",
     "oocss",
-    "",
-    ""
+    "background-size"
   ],
   "css-background-size": {
     "type": "git",
