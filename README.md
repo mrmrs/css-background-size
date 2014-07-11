@@ -27,7 +27,7 @@ or download the css on github and include in your project.
   .bg-full {            background-size: 100%; }
   .bg-auto {            background-size: auto; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .bg-cv-ns {             background-size: cover; }
   .bg-cn-ns {             background-size: contain; }
   .bg-quarter-ns {         background-size: 25%; }
@@ -37,7 +37,7 @@ or download the css on github and include in your project.
   .bg-auto-ns {            background-size: auto; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .bg-cv-m {             background-size: cover; }
   .bg-cn-m {             background-size: contain; }
   .bg-quarter-m {         background-size: 25%; }
@@ -47,7 +47,7 @@ or download the css on github and include in your project.
   .bg-auto-m {            background-size: auto; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .bg-cv-l {             background-size: cover; }
   .bg-cn-l {             background-size: contain; }
   .bg-quarter-l {         background-size: 25%; }
