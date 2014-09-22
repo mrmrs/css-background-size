@@ -14,8 +14,11 @@ npm install --save-dev css-background-size
 ```
 or download the css on github and include in your project.
 
+
 ## File Size
 
+1.6K background-size.css
+1.0K background-size.min.css
 
 ## The Code
 ```
