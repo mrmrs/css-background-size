@@ -1,7 +1,7 @@
 {
   "name": "css-background-size",
   "style": "background-size.css",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "http://github.com/mrmrs/css-background-size",
   "description": "Css module of single purpose classes for background size",
   "keywords": [
