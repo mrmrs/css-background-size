@@ -11,13 +11,13 @@
   .bg-auto {            background-size: auto; }
 
 @media screen and (min-width: 48em) {
-  .bg-cv-ns {             background-size: cover; }
-  .bg-cn-ns {             background-size: contain; }
-  .bg-quarter-ns {         background-size: 25%; }
-  .bg-half-ns {            background-size: 50%; }
-  .bg-three-quarters-ns {  background-size: 75%; }
-  .bg-full-ns {            background-size: 100%; }
-  .bg-auto-ns {            background-size: auto; }
+  .bg-cv-s {             background-size: cover; }
+  .bg-cn-s {             background-size: contain; }
+  .bg-quarter-s {         background-size: 25%; }
+  .bg-half-s {            background-size: 50%; }
+  .bg-three-quarters-s {  background-size: 75%; }
+  .bg-full-s {            background-size: 100%; }
+  .bg-auto-s {            background-size: auto; }
 }
 
 @media screen and (min-width:48em) and (max-width: 64em) {
