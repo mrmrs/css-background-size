@@ -10,7 +10,7 @@
   .bg-full {            background-size: 100%; }
   .bg-auto {            background-size: auto; }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 32em) {
   .bg-cv-s {             background-size: cover; }
   .bg-cn-s {             background-size: contain; }
   .bg-quarter-s {         background-size: 25%; }
@@ -20,7 +20,7 @@
   .bg-auto-s {            background-size: auto; }
 }
 
-@media screen and (min-width:48em) and (max-width: 64em) {
+@media screen and (min-width:48em) {
   .bg-cv-m {             background-size: cover; }
   .bg-cn-m {             background-size: contain; }
   .bg-quarter-m {         background-size: 25%; }
@@ -30,7 +30,7 @@
   .bg-auto-m {            background-size: auto; }
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 96em) {
   .bg-cv-l {             background-size: cover; }
   .bg-cn-l {             background-size: contain; }
   .bg-quarter-l {         background-size: 25%; }
