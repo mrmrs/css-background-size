@@ -1,38 +1,44 @@
 {
   "name": "css-background-size",
-  "style": "background-size.css",
-  "version": "1.0.8",
-  "homepage": "http://github.com/mrmrs/css-background-size",
-  "description": "Css module of single purpose classes for background size",
+  "version": "2.0.0",
+  "description": "Functional CSS for background-size",
+  "style": "dist/background-size.css",
+  "main": "dist/background-size.css",
+  "exports": {
+    ".": "./dist/background-size.css",
+    "./dist/*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "css",
-    "oocss",
-    "background-size"
+    "background-size",
+    "utility",
+    "single-purpose",
+    "functional-css"
   ],
-  "css-background-size": {
+  "homepage": "https://github.com/mrmrs/css-background-size",
+  "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/css-background-size.git"
+    "url": "https://github.com/mrmrs/css-background-size.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/css-background-size/issues",
-    "email": "hi@mrmrs.cc"
+    "url": "https://github.com/mrmrs/css-background-size/issues"
   },
   "author": {
     "name": "Adam Morse",
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "contributors": [
-    {
-      "name": "Adam Morse",
-      "email": "hi@mrmrs.cc"
-    }
-  ],
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "lightningcss": "^1"
-  },
-  "scripts": {
-    "build": "node build.js"
   }
 }
