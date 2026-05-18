@@ -1,8 +1,8 @@
-.bg-cover {
+.bg-cv {
   background-size: cover;
 }
 
-.bg-contain {
+.bg-cn {
   background-size: contain;
 }
 
@@ -27,11 +27,11 @@
 }
 
 @media screen and (width >= 32em) {
-  .bg-cover-s {
+  .bg-cv-s {
     background-size: cover;
   }
 
-  .bg-contain-s {
+  .bg-cn-s {
     background-size: contain;
   }
 
@@ -57,11 +57,11 @@
 }
 
 @media screen and (width >= 48em) {
-  .bg-cover-m {
+  .bg-cv-m {
     background-size: cover;
   }
 
-  .bg-contain-m {
+  .bg-cn-m {
     background-size: contain;
   }
 
@@ -87,11 +87,11 @@
 }
 
 @media screen and (width >= 96em) {
-  .bg-cover-l {
+  .bg-cv-l {
     background-size: cover;
   }
 
-  .bg-contain-l {
+  .bg-cn-l {
     background-size: contain;
   }
 
